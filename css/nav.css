@@ -1,0 +1,18 @@
+.nav{
+    background-color: rgba(241, 0, 0, 0);
+    
+}
+.container_nav{
+    display: grid;
+    grid-template-columns: 400px 0.5fr;
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+}
+.nav_logo img{
+    height: 100px;
+}
+.nav_text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
