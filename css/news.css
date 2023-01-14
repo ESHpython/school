@@ -1,0 +1,22 @@
+.news{
+    width: 100%;
+}
+.container_news{
+    display: grid;
+    width: 1280px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    /* padding: 20px; */
+    height: 400px;
+}
+.news_item_0{
+    padding: 20px;
+}
+.news_item_1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+}
+.news_block{
+    
+}
