@@ -3,7 +3,7 @@
 }
 .container_news{
     display: grid;
-    width: 1280px;
+    width: 1000px;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
     /* padding: 20px; */
@@ -41,6 +41,7 @@
     width: 400px;
     /* margin: 20px 0px 00px 0px; */
     height: 200px;
+    padding: 20px;
 }
 .news h1{
     height: 58px;
@@ -48,4 +49,10 @@
 }
 .news_item_0 h1{
     width: 500px;
+}
+.news_item_block_0{
+    padding: 21px 0px 0px 20px;
+}
+.news_item_block_1{
+    padding: 0px 0px 20px 20px;
 }
