@@ -2,11 +2,11 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    width: 1280px;
+    width: 1000px;
     margin: 0 auto;
-    height: 275px;
-    gap: 10px;
-    background-color: rgb(17, 255, 0);
+    height: 500px;
+    gap: 30px;
+    background-color: rgba(17, 255, 0, 0);
     grid-template-areas: 
         "one one two two"
         "one one two two"
@@ -17,18 +17,41 @@
 .one{
     background-color: red;
     grid-area: one;
-    height: 500px;
 }
 .two{
-    background-color: rgb(17, 255, 0);
+    background-color: green;
     grid-area: two;
-    height: 250px;
-    width: 250px;
 }
 .three{
     background-color: blue;
     grid-area: three;
-    height: 250px;
-    width: 250px;
 }
+.one_img{
+    background: url("../img/news_one.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: 600px;
+}
+.two_img{
+    background: url("../img/news_two.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.three_img{
+    background: url("../img/news_three.jpg");
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.one_text{
+
+}
+.two_text{
+
+}
+.three_text{
+
+}
+
     
