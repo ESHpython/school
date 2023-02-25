@@ -4,7 +4,9 @@
     grid-template-rows: repeat(4, 1fr);
     width: 1000px;
     margin: 0 auto;
+    /* padding-top: 50px;s */
     height: 500px;
+    /* padding: 50px 0px; */
     gap: 30px;
     background-color: rgba(17, 255, 0, 0);
     grid-template-areas: 
@@ -31,11 +33,15 @@
     background-size: cover;
     height: 100%;
     background-position: 600px;
+    overflow: hidden;
+    position: relative;
 }
 .two_img{
     background: url("../img/news_two.jpg");
     background-size: cover;
     height: 100%;
+    overflow: hidden;
+    position: relative;
 }
 .three_img{
     background: url("../img/news_three.jpg");
@@ -53,5 +59,20 @@
 .three_text{
 
 }
+.a1{
+    background-color:rgba(0, 0, 0, 0.562); 
+    position: absolute; 
+    width: 100%; 
+    bottom:0;
+    padding: 15px 0px; 
+}
+.a1 h1{
+    display: grid;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
 
-    
+
+
+  
