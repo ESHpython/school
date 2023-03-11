@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    width: 1000px;
+    width: 1280px;
     margin: 0 auto;
     /* padding-top: 50px;s */
     height: 500px;
@@ -67,6 +67,12 @@
     padding: 15px 0px; 
 }
 .a1 h1{
+    display: grid;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
+a{
     display: grid;
     color: white;
     font-size: 20px;
