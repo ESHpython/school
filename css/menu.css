@@ -1,6 +1,14 @@
 .menu{
-    background: url("../img/Primem-uchastie-v-ezhegodnoj-aktsii11.jpg");
+    background: url("../img/besit.jpg");
     height: 100vh;
     background-size: cover;
-    background-color: rgba(255, 235, 205, 0);
+    font-family: "ice";
+}
+.menu h1{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    padding-top: 340px;
+    color:  white;
+    
 }

@@ -10,20 +10,20 @@
 <body>
     <div class="nav">
         <div class="container_nav">
-                <div class="nav_logo">
-                    <img src="./img/Top_ikonka.png" alt="">
-                </div>
-                <div class="nav_text">
-                    <div class="nav_colum">Главная</div>
-                    <div class="nav_colum">Образовние</div>
-                    <div class="nav_colum">Питание</div>
-                    <div class="nav_colum">Новости</div>
-                    <div class="nav_colum_0">Дистанционка</div>
-                </div>
+            <img src="./img/nice_logo.png" alt="">
+            <a href="index.html#menu" style="text-decoration: none;">Главная</a>
+            <a href="index.html#education" style="text-decoration: none;">Образование</a>
+            <a href="index.html#news" style="text-decoration: none;">Новости</a>
+            <a href="index.html#staff" style="text-decoration: none;">Сотрудники</a>
+            <a href="index.html#safety" style="text-decoration: none;">Безопастность</a>
+            <a href="index.html#internet_education" style="text-decoration: none;">Дист.обучение</a>
+            <a href="index.html" style="text-decoration: none;">Месторасположение</a>
         </div>
     </div>
-    <div class="menu"></div>
-    <div class="education">
+    <div class="menu" id="menu">
+        <h1>МБОУ СОШ №6 им. Ц.Л Куникова</h1>
+    </div>
+    <div class="education" id="education">
         <div class="container_education">
             
             <div class="education_block">
@@ -38,25 +38,27 @@
                 <div class="education_img">
                     <img src="./img/repeate.png" alt="">
                 </div>
-                <h1>ОБРАЗОВАНИЕ</h1>
-                <p>Всех наших учеников мы лично
-                    устраиваем на работу выше 100 тыс</p>
+                <h1>КОЛЛЕКТИВ</h1>
+                <p>Мы очень сильно следим за
+                    чтобы наши ученики были
+                    воспитынными</p>
             </div>
             <div class="education_block">
                 <div class="education_img">
                     <img src="./img/fix.png" alt="">
                 </div>
-                <h1>ОБРАЗОВАНИЕ</h1>
-                <p>Всех наших учеников мы лично
-                    устраиваем на работу выше 100 тыс</p>
+                <h1>УЧИТЕЛЯ</h1>
+                <p>Наши учителя - мастера своего
+                    дела. У нас работают профессора
+                    высших наук</p>
             </div>
             <div class="education_block">
                 <div class="education_img">
                     <img src="./img/Ontable.png" alt="">
                 </div>
-                <h1>ОБРАЗОВАНИЕ</h1>
-                <p>Всех наших учеников мы лично
-                    устраиваем на работу выше 100 тыс</p>
+                <h1>КОМФОРТ</h1>
+                <p>Наши кабинеты - построенны по
+                    последнему слову техники.</p>
             </div>
 
         </div>
@@ -105,7 +107,7 @@
             </div>
         </div>
     </div> -->
-    <div class="start">
+    <div class="start" id="news">
         <div class="one" onclick="location.href='cart.html'" style="cursor: pointer;">
             <div class="one_img">
                 <div class="a1">
@@ -134,7 +136,7 @@
             </div>
         </div>
     </div>
-    <div class="staff">
+    <div class="staff" id="staff">
         <div class="container_staff">
             <div class="staff_block">
                 <div class="staff_img">
@@ -181,10 +183,10 @@
             </div>  -->
         </div>
     </div>
-    <div class="safety">
+    <div class="safety" id="safety">
         <div class="safety_row_1">
             <div class="safety_img">
-                <img src="./img/Safety.jpg" alt="">
+                <img src="./img/Cart_files/nadoel.jpeg" alt="">
             </div>
             <div class="safety_text">
                 Часто мы задаемся вопросом: почему дети попадают в дорожно-транспортные происшествия? Казалось бы, ответ простой: если ребенок по собственной неосторожности получил травму в дорожно-транспортном происшествии, то это – вина ребенка. Но понятия «вина ребенка» не существует. Дорожное происшествие с ним означает лишь, что мы, взрослые, где-то недосмотрели, чему-то не научили или же личным примером показали, что можно нарушить «закон дороги». И часто за случаями детского травматизма на дрогах стоит безучастность взрослых к совершаемым детьми правонарушениям.
@@ -192,14 +194,14 @@
         </div>
         <div class="safety_row_2">
             <div class="safety_img">
-                <img src="./img/securiti.jpg" alt="">
+                <img src="./img/skatina.jpeg" alt="">
             </div>
             <div class="safety_text">
                 Изменения в ст.207: С 11 января 2018 года вступили в силу новые поправки в статью 207 Уголовного кодекса Российской Федерации, усиливающие ответственность за заведомо ложное сообщение об акте терроризма. Изменения внесены Федеральным законом РФ № 501-ФЗ от 31.12.2017 года. Теперь ответственность по части первой наступает при совершении заведомо ложного сообщения о готовящихся взрыве, поджоге или иных действиях, создающих опасность гибели людей, причинения значительного имущественного ущерба либо наступления иных общественно опасных последствий из хулиганских побуждений. 
             </div>
         </div>
     </div>
-    <div class="internet_education">
+    <div class="internet_education" id="internet_education">
         <div class="internet_education_colum_1">
             <div class="colum_1">
                 <h1>Регистрация</h1>
@@ -211,12 +213,17 @@
                     </p>
                 <button>Зарегистрироваться</button>
             </div>
-            <div class="colum_1">2</div>
+            <div class="colum_2">
+                <h1>Вход</h1>
+                <form action="">Введите никнейм</form>
+                <br>
+                <form action="">Введите пароль</form>
+                <p>Забыли пароль?</p>
+            </div>
         </div>
         <div class="internet_education_colum_2">
             
         </div>
     </div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores ut, sequi sunt, aspernatur alias dolor aliquam veniam totam provident ea doloremque! In minus alias, corrupti a sunt enim porro?
 </body>
 </html>
