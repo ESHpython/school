@@ -1,14 +1,22 @@
 .menu{
-    background: url("../img/besit.jpg");
+    background: url("../img/school1.jpg");
     height: 100vh;
     background-size: cover;
     font-family: "ice";
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.603);
+    place-items: center;
 }
 .menu h1{
     display: grid;
     text-align: center;
+    place-items: center;
     align-items: center;
-    padding-top: 340px;
-    color:  white;
+    background-color: black;
+    /* border-radius: 15px; */
+    padding: 20px;
+    font-family: "Bold";
+    font-size: 50px;
+    color: #ffffff;
     
 }

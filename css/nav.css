@@ -1,10 +1,11 @@
 .nav{
-    width: 100%;
+    width: 1920px;
     background-color: rgba(0, 0, 0, 0.541);
     position: fixed;
     /* padding: 20px 0px; */
     z-index: 10;
     height: 90px;
+    /* padding-top: 90px; */
     
 }
 .container_nav{
