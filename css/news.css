@@ -1,6 +1,7 @@
 .news{
     /* height: 2800px; */
     background-color: rgb(255, 255, 255);
+    padding-top: 90px;
 }
 .container_news{
     width: 800px;
